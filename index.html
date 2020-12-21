@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Assignment: Music Sequencer</title>
+    <meta name="description" content="Creating a music sequencer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="sidebar">
+    <h1>BEAT MAKER 8000</h1> 
+      <!-- testing the buttons and audio-->
+      <input type="range" value="500" min="50" max="2000" step="50" id="speed">
+      <label for="range">BPM</label>
+      <button class="first" id="replay">Play Sequence</button>
+</div>
+  <!-- for the SSVG files-->
+  <section class="pads">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="599.536px" height="426.275px" viewBox="0 0 599.536 426.275" enable-background="new 0 0 599.536 426.275"
+	 xml:space="preserve">
+    <g>
+		<path fill="#1936B2" d="M516.768,371.638c0,4.418-3.582,8-8,8h-418c-4.418,0-8-3.582-8-8v-317c0-4.418,3.582-8,8-8h418
+		c4.418,0,8,3.582,8,8V371.638z"/>
+        </g>
+        <!--pad 1-->
+        <g id="pad1" class="playable" data-sound="Hats.mp3">
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M222.768,144.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-84c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V144.638z"/>
+		<text transform="matrix(1 0 0 1 140.5107 107.0908)" fill="#FFFFFF" font-family="'arial'" font-size="11">HATS</text>
+
+        </g>
+        <!-- pad 2-->
+		<g id="pad2" class="playable" data-sound="Snare.mp3" > Snare
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M363.768,144.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-84c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V144.638z"/>
+		<text transform="matrix(1 0 0 1 277.6396 107.0908)" fill="#FFFFFF" font-family="'arial'" font-size="11">SNARE</text>
+        </g>
+        <!-- pad 3-->
+		<g id="pad3" class="playable" data-sound="Kick.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M504.768,144.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-84c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V144.638z"/>
+		<text transform="matrix(1 0 0 1 425.2319 105.1377)" fill="#FFFFFF" font-family="'arial'" font-size="11">KICK</text>
+		</g>
+        <!-- pad 4-->
+        <g id="pad4" class="playable" data-sound="Alert.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M222.768,253.637c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-83.999c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V253.637z"/>
+		<text transform="matrix(1 0 0 1 137.4995 215.5908)" fill="#FFFFFF" font-family="'arial'" font-size="11">ALERT</text>
+        </g>
+        <!-- pad 5-->
+		<g id="pad5" class="playable" data-sound="Tom.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M363.768,253.637c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-83.999c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V253.637z"/>
+		<text transform="matrix(1 0 0 1 284.7041 215.5908)" fill="#FFFFFF" font-family="'arial'" font-size="11">TOM</text>
+        </g>
+        <!-- pad 6-->
+		<g id="pad6" class="playable" data-sound="Clap.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M504.768,253.637c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-83.999c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V253.637z"/>
+		<text transform="matrix(1 0 0 1 423.2017 213.6377)" fill="#FFFFFF" font-family="'arial'" font-size="11">CLAP</text>
+        </g>
+        <!-- pad 7-->
+		<g id="pad7" class="playable" data-sound="Sample1.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M222.768,361.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84.001c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V361.638z"/>
+		<text transform="matrix(1 0 0 1 137.6538 324.0908)" fill="#FFFFFF" font-family="'arial'" font-size="11">LAZER</text>
+        </g>
+        <!-- pad 8-->
+		<g id="pad8" class="playable" data-sound="Sample2.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M363.768,361.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-84.001c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V361.638z"/>
+		<text transform="matrix(1 0 0 1 267.3584 324.0908)" fill="#FFFFFF" font-family="'arial'" font-size="11">SURPRISE</text>
+        </g>
+        <!-- pad 9-->
+		<g id="pad9" class="playable" data-sound="Sample3.mp3" >
+			<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M504.768,361.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84.001c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V361.638z"/>
+		<text transform="matrix(1 0 0 1 401.2134 322.1377)" fill="#FFFFFF" font-family="'arial'" font-size="11">TURNTABLE</text>
+	</g>
+  </svg>
+</section>
+    </div>
+    <script src="js/script.js"></script>
+</body>

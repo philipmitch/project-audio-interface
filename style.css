@@ -1,0 +1,68 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;}
+  
+body{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0%;
+  background-color:white;
+}
+
+h1 {
+  display: flex;
+  text-align:center;
+  font-family: Arial, sans-serif;
+  font-size: 3.2em;
+  padding-top:1px;
+  color:#d62727;
+  letter-spacing:10px;
+}
+
+/*slider*/
+label{
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: navy
+}
+
+/*buttons*/
+button {
+  background-color: #1936b2;
+  color: white;
+  box-sizing: border-box;
+  border-radius:0.8em;
+  margin:10px;
+  padding:1px 10px 1px 10px;
+  cursor: pointer;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: .8em 1.5em;
+   }
+
+  button:hover {
+  transition: all 150ms linear;
+  opacity: .85;
+  background-color: #d62727;
+  background-position: 0 100%;
+  }
+
+ /*play-button*/
+ [data-playing] {
+  align-self: stretch;
+  background-color: var(--boxSecond);
+  cursor: pointer;
+}
+
+/*drum-pads*/
+ .playable{
+  cursor: pointer;
+}
+.playable :hover{
+  background-color: violet;
+}

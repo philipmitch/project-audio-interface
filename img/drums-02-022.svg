@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="599.536px" height="426.275px" viewBox="0 0 599.536 426.275" enable-background="new 0 0 599.536 426.275"
+	 xml:space="preserve">
+<g>
+	<path fill="#1936B2" d="M516.768,371.638c0,4.418-3.582,8-8,8h-418c-4.418,0-8-3.582-8-8v-317c0-4.418,3.582-8,8-8h418
+		c4.418,0,8,3.582,8,8V371.638z"/>
+	<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M222.768,144.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+		v-84c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V144.638z"/>
+	<text transform="matrix(1 0 0 1 140.5107 107.0908)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">HATS</text>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M363.768,144.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V144.638z"/>
+		<text transform="matrix(1 0 0 1 277.6396 107.0908)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">SNARE</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M504.768,144.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V144.638z"/>
+		<text transform="matrix(1 0 0 1 425.2319 105.1377)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">KICK</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M222.768,253.637c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-83.999c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V253.637z"/>
+		<text transform="matrix(1 0 0 1 137.4995 215.5908)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">ALERT</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M363.768,253.637c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-83.999c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V253.637z"/>
+		<text transform="matrix(1 0 0 1 284.7041 215.5908)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">TOM</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M504.768,253.637c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-83.999c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V253.637z"/>
+		<text transform="matrix(1 0 0 1 423.2017 213.6377)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">CLAP</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M222.768,361.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84.001c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V361.638z"/>
+		<text transform="matrix(1 0 0 1 137.6538 324.0908)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">LAZER</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M363.768,361.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84.001c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V361.638z"/>
+		<text transform="matrix(1 0 0 1 267.3584 324.0908)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">SURPRISE</text>
+	</g>
+	<g>
+		<path fill="#D62727" stroke="#F9C2C2" stroke-miterlimit="10" d="M504.768,361.638c0,2.209-1.791,4-4,4h-120c-2.209,0-4-1.791-4-4
+			v-84.001c0-2.209,1.791-4,4-4h120c2.209,0,4,1.791,4,4V361.638z"/>
+		<text transform="matrix(1 0 0 1 401.2134 322.1377)" fill="#FFFFFF" font-family="'Roboto-Bold'" font-size="14">TURNTABLE</text>
+	</g>
+</g>
+</svg>
